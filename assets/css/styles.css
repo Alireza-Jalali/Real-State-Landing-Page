@@ -1,0 +1,402 @@
+@import url("./reset.css");
+@import url("./grid-system.css");
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    font-family: "Mulish";
+}
+
+/* start header styles */
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #C3DAF2;
+}
+
+header #menu{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 44px;
+    margin: 0 120px;
+}
+
+header #menu h1{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1E3240;
+}
+
+header #menu ul li{
+    list-style: none;
+    display: inline;
+}
+
+header #menu ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #1E3240;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+header #hero-header .big-title{
+    max-width: 635px;
+    margin-top: 176px;
+}
+
+header #hero-header .big-title h2{
+    font-size: 90px;
+    font-weight: 700;
+    color: #1E3240;
+}
+
+header #hero-header .big-title p{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #1E3240;
+    margin-top: 24px;
+}
+
+header #hero-header .big-title .primary-btn{
+    padding: 18px 24px;
+    color: #fff;
+    background-color: #1E3240;
+    border: none;
+    margin: 40px 30px 0 0;
+}
+
+header #hero-header .big-title .secondary-btn{
+    padding: 18px 24px;
+    color: #1E3240;
+    background-color: #C3DAF2;
+    border: 1px solid #1E3240;
+}
+
+header #hero-header figure img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* end header styles */
+
+/* start main styles */
+main #introduction{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+main #introduction figure{
+    width: 50%;
+}
+
+main #introduction article{
+    width: 540px;
+}
+
+main #introduction article h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #1E3240;
+}
+
+main #introduction article p{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #BDBDBD;
+    margin-top: 40px;
+}
+
+
+main #introduction article .scores{
+    margin-top: 40px;
+    display: flex;
+}
+
+main #introduction article .scores h5{
+    font-size: 14px;
+    font-weight: 700;
+    color: #C3DAF2;
+    margin-right: 35px;
+}
+
+main #introduction article .scores span{
+    font-size: 48px;
+    font-weight: 300;
+    color: #1E3240;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+main #projects h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #1E3240;
+    margin-top: 184px;
+}
+
+main #projects .text-and-arrows{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+main #projects .text-and-arrows p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #BDBDBD;
+}
+
+main #projects .text-and-arrows .arrows ion-icon{
+    color: #AFD4E2;
+    font-size: 28px;
+    margin: 5px;
+}
+
+main #projects figure{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 84px;
+}
+
+main #projects .image-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    position: relative;
+    bottom: 40px;
+}
+
+main #projects .image-info div{
+    background-color: #fff;
+    width: 290px;
+    height: 80px;
+    box-shadow: 0 10px 20px rgb(238, 238, 238);
+}
+
+main #projects .image-info div h4{
+    margin: 22px 0 0 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1E3240;
+}
+
+main #projects .image-info div p{
+    margin: 6px 0 0 20px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+main .comment h3{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1E3240;
+    margin-top: 184px;
+}
+
+main .comment p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1E3240;
+    margin-top: 12px;
+}
+
+main .comment .person-and-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 78px;
+}
+main .comment .person-and-text figure{
+    width: 50%;
+}
+
+main .comment .person-and-text div{
+    width: 539px;
+}
+
+main .comment .person-and-text div h4{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 18px;
+    color: #1E3240;
+}
+
+main .comment .person-and-text div q{
+    font-size: 24px;
+    font-weight: 300;
+    color: #1E3240;
+    display: inline-block;
+    margin-top: 18px;
+}
+
+main .comment .person-and-text div cite{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E3240;
+    display: inline-block;
+    margin-top: 18px;
+}
+
+main .comment .person-and-text div span{
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+main #contact{
+    margin-top: 184px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main #contact figure{
+    width: 50%;
+}
+
+main #contact form{
+    width: 540px;
+}
+
+main #contact form h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #1E3240;
+}
+
+main #contact form p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #BDBDBD;
+    margin-top: 12px;
+}
+
+main #contact form div.name{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+main #contact form div.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+main #contact form input{
+    width: 255px;
+    height: 50px;
+    border: 1px solid #1E3240;
+}
+
+main #contact form input::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 18px;
+}
+
+main #contact form textarea{
+    width: 540px;
+    height: 120px;
+    border: 1px solid #1E3240;
+    margin-top: 18px;
+}
+
+main #contact form textarea::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 14px 0 0 18px;
+}
+
+main #contact form button{
+    padding: 18px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #1E3240;
+    border: none;
+    margin-top: 40px;
+}
+
+main #contact form span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #BDBDBD;
+    margin-left: 18px;
+}
+
+/* end main styles */
+
+/* start footer styles */
+footer{
+    width: 100%;
+    height: 384px;
+    background-color: #1E3240;
+    margin-top: 120px;
+}
+
+footer .footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer address{
+    width: 50%;
+}
+
+footer .footer address h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 73px;
+}
+
+footer .footer address p{
+    color: #BDBDBD;
+    margin-top: 12px;
+}
+
+footer .footer address p ion-icon{
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+footer .footer nav{
+    width: 511px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 73px;
+}
+
+footer .footer nav ul h3{
+    color: #fff;
+}
+
+footer .footer nav ul li{
+    list-style: none;
+    margin-top: 12px;
+}
+
+
+footer .footer nav ul li a{
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+footer .copy-right span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #BDBDBD;
+    display: inline-block;
+    margin-top: 80px;
+}
+/* end footer styles */
