@@ -380,6 +380,14 @@ footer .footer address p ion-icon{
     vertical-align: middle;
 }
 
+footer .footer address span.copy-right{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--gray);
+    display: inline-block;
+    margin-top: 80px;
+}
+
 footer .footer nav{
     width: 511px;
     display: flex;
@@ -400,13 +408,5 @@ footer .footer nav ul li{
 footer .footer nav ul li a{
     text-decoration: none;
     color: var(--gray);
-}
-
-footer .copy-right span{
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--gray);
-    display: inline-block;
-    margin-top: 80px;
 }
 /* end footer styles */
