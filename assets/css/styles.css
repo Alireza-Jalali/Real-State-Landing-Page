@@ -2,15 +2,25 @@
 @import url("./grid-system.css");
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+:root{
+    --primary-color: #1E3240;
+    --secondary-color: #AFD4E2;
+    --background-color: #C3DAF2;
+    --shadow-color: #EEEEEE;
+    --gray: #BDBDBD;
+    --white: #FFFFFF;
+}
+
 body{
     font-family: "Mulish";
+    overflow-x: hidden;
 }
 
 /* start header styles */
 header{
     width: 100%;
     height: 100vh;
-    background-color: #C3DAF2;
+    background-color: var(--background-color);
 }
 
 header #menu{
@@ -24,7 +34,7 @@ header #menu{
 header #menu h1{
     font-size: 18px;
     font-weight: 700;
-    color: #1E3240;
+    color: var(--primary-color);
 }
 
 header #menu ul li{
@@ -35,7 +45,7 @@ header #menu ul li{
 header #menu ul li a{
     font-size: 14px;
     font-weight: 400;
-    color: #1E3240;
+    color: var(--primary-color);
     text-decoration: none;
     margin-left: 50px;
 }
@@ -48,29 +58,29 @@ header #hero-header .big-title{
 header #hero-header .big-title h2{
     font-size: 90px;
     font-weight: 700;
-    color: #1E3240;
+    color: var(--primary-color);
 }
 
 header #hero-header .big-title p{
     font-size: 18px;
     font-weight: 400px;
-    color: #1E3240;
+    color: var(--primary-color);
     margin-top: 24px;
 }
 
 header #hero-header .big-title .primary-btn{
     padding: 18px 24px;
-    color: #fff;
-    background-color: #1E3240;
+    color: var(--white);
+    background-color: var(--primary-color);
     border: none;
     margin: 40px 30px 0 0;
 }
 
 header #hero-header .big-title .secondary-btn{
     padding: 18px 24px;
-    color: #1E3240;
-    background-color: #C3DAF2;
-    border: 1px solid #1E3240;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    border: 1px solid var(--primary-color);
 }
 
 header #hero-header figure img{
@@ -100,13 +110,13 @@ main #introduction article{
 main #introduction article h3{
     font-size: 48px;
     font-weight: 700;
-    color: #1E3240;
+    color: var(--primary-color);
 }
 
 main #introduction article p{
     font-size: 18px;
     font-weight: 400px;
-    color: #BDBDBD;
+    color: var(--gray);
     margin-top: 40px;
 }
 
@@ -119,14 +129,14 @@ main #introduction article .scores{
 main #introduction article .scores h5{
     font-size: 14px;
     font-weight: 700;
-    color: #C3DAF2;
+    color: var(--background-color);
     margin-right: 35px;
 }
 
 main #introduction article .scores span{
     font-size: 48px;
     font-weight: 300;
-    color: #1E3240;
+    color: var(--primary-color);
     display: inline-block;
     margin-top: 12px;
 }
@@ -134,7 +144,7 @@ main #introduction article .scores span{
 main #projects h3{
     font-size: 48px;
     font-weight: 700;
-    color: #1E3240;
+    color: var(--primary-color);
     margin-top: 184px;
 }
 
@@ -147,11 +157,11 @@ main #projects .text-and-arrows{
 main #projects .text-and-arrows p{
     font-size: 18px;
     font-weight: 400;
-    color: #BDBDBD;
+    color: var(--gray);
 }
 
 main #projects .text-and-arrows .arrows ion-icon{
-    color: #AFD4E2;
+    color: var(--secondary-color);
     font-size: 28px;
     margin: 5px;
 }
@@ -171,17 +181,17 @@ main #projects .image-info{
 }
 
 main #projects .image-info div{
-    background-color: #fff;
+    background-color: var(--white);
     width: 290px;
     height: 80px;
-    box-shadow: 0 10px 20px rgb(238, 238, 238);
+    box-shadow: 0 10px 20px var(--shadow-color);
 }
 
 main #projects .image-info div h4{
     margin: 22px 0 0 20px;
     font-size: 14px;
     font-weight: 700;
-    color: #1E3240;
+    color: var(--primary-color);
 }
 
 main #projects .image-info div p{
@@ -194,7 +204,7 @@ main .comment h3{
     text-align: center;
     font-size: 48px;
     font-weight: 700;
-    color: #1E3240;
+    color: var(--primary-color);
     margin-top: 184px;
 }
 
@@ -202,7 +212,7 @@ main .comment p{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    color: #1E3240;
+    color: var(--primary-color);
     margin-top: 12px;
 }
 
@@ -225,13 +235,13 @@ main .comment .person-and-text div h4{
     font-size: 32px;
     font-weight: 700;
     margin-top: 18px;
-    color: #1E3240;
+    color: var(--primary-color);
 }
 
 main .comment .person-and-text div q{
     font-size: 24px;
     font-weight: 300;
-    color: #1E3240;
+    color: var(--primary-color);
     display: inline-block;
     margin-top: 18px;
 }
@@ -239,7 +249,7 @@ main .comment .person-and-text div q{
 main .comment .person-and-text div cite{
     font-size: 24px;
     font-weight: 600;
-    color: #1E3240;
+    color: var(--primary-color);
     display: inline-block;
     margin-top: 18px;
 }
@@ -270,13 +280,13 @@ main #contact form{
 main #contact form h3{
     font-size: 48px;
     font-weight: 700;
-    color: #1E3240;
+    color: var(--primary-color);
 }
 
 main #contact form p{
     font-size: 18px;
     font-weight: 400;
-    color: #BDBDBD;
+    color: var(--gray);
     margin-top: 12px;
 }
 
@@ -295,7 +305,7 @@ main #contact form div.contact{
 main #contact form input{
     width: 255px;
     height: 50px;
-    border: 1px solid #1E3240;
+    border: 1px solid var(--primary-color);
 }
 
 main #contact form input::placeholder{
@@ -307,7 +317,7 @@ main #contact form input::placeholder{
 main #contact form textarea{
     width: 540px;
     height: 120px;
-    border: 1px solid #1E3240;
+    border: 1px solid var(--primary-color);
     margin-top: 18px;
 }
 
@@ -321,8 +331,8 @@ main #contact form button{
     padding: 18px 24px;
     font-size: 14px;
     font-weight: 400;
-    color: #fff;
-    background-color: #1E3240;
+    color: var(--white);
+    background-color: var(--primary-color);
     border: none;
     margin-top: 40px;
 }
@@ -330,7 +340,7 @@ main #contact form button{
 main #contact form span{
     font-size: 12px;
     font-weight: 400;
-    color: #BDBDBD;
+    color: var(--gray);
     margin-left: 18px;
 }
 
@@ -340,7 +350,7 @@ main #contact form span{
 footer{
     width: 100%;
     height: 384px;
-    background-color: #1E3240;
+    background-color: var(--primary-color);
     margin-top: 120px;
 }
 
@@ -356,12 +366,12 @@ footer .footer address{
 footer .footer address h2{
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: var(--white);
     margin-top: 73px;
 }
 
 footer .footer address p{
-    color: #BDBDBD;
+    color: var(--gray);
     margin-top: 12px;
 }
 
@@ -378,7 +388,7 @@ footer .footer nav{
 }
 
 footer .footer nav ul h3{
-    color: #fff;
+    color: var(--white);
 }
 
 footer .footer nav ul li{
@@ -389,13 +399,13 @@ footer .footer nav ul li{
 
 footer .footer nav ul li a{
     text-decoration: none;
-    color: #BDBDBD;
+    color: var(--gray);
 }
 
 footer .copy-right span{
     font-size: 14px;
     font-weight: 400;
-    color: #BDBDBD;
+    color: var(--gray);
     display: inline-block;
     margin-top: 80px;
 }
